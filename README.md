@@ -28,7 +28,7 @@
 # Aqui está um exemplo, resumido a um gif, de como funciona o SmartData:
 
 
-
+<img src="https://i.ibb.co/hsSny9R/Smart-Data.gif" alt="Smart-Data" border="0">
 
 
 

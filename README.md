@@ -25,6 +25,14 @@
 ### Existe uma demanda muito grande hoje em dia, por aplicativos que sejam intuitivos, de fácil uso e que sejam úteis para o dia a dia de desenvolvedores e profissionais da área de TI, e foi com esse pensamento que desenvolvemos essa aplicação, especialmente para nossa parceira, a SPC - BRASIL: diariamente, a SPC - Brasil recebe milhares de remessas de dados, e com isso muitos dados ruins podem vir misturados com os úteis, e então tivemos a idéia de análisar, verificar e validar uma das mais importantes fontes de dados que uma remessa pode ter, que é justamente a fonte. É ela que está linkada com o resto da remessa, que permite com que os dados de outras tabelas sejam coerentes e que permite que dados importantíssimos, como de pagamento, modalidade de pagamento e de operações sejam observados com clareza, agregando um valor enorme as operações normais de uma empresa que trabalha com crédito diariamente.
 
 
+# *Como utilizar o SmartData para analisar as fontes que recebi?*
+
+### 1 - Clique no SmartData.exe
+### 2 - Clique em "Procurar" e selecione a fonte que quiser no diretório onde ela se encontra.
+### 3 - Depois de selecionar a fonte, selecione o diretório onde você queira que todas as informações/relatório da fonte sejam direcionados.
+### 4 - Espere alguns segundos até que a análise seja completa, então aparecerá uma janela onde você poderá clicar em "Sim" para ver a análise imediatamente, ou clicar em "Não" se você quiser ver a análise mais tarde(Nesse caso, a análise da fonte estará localizada no diretório onde você escolheu).
+### 5 - Aproveite as informações geradas através dos dados da fonte. Muito obrigado pela preferência.
+
 # Aqui está um exemplo, resumido a um gif, de como funciona o SmartData:
 
 
@@ -46,7 +54,8 @@
 # *Diagrama de Uso*
 [![conograma.jpg](https://i.postimg.cc/6p0qPXyJ/conograma.jpg)](https://postimg.cc/LJJmqGtN)
 
-## * Tecnologias utilizadas*
+
+## *Tecnologias utilizadas*
 
 ### HTML5. CSS3 e JavaScript
 ### Python 3.7, bibliotecas utilizadas: MatplotLib, Tkinter e Pandas, cx_freeze, pandas, numpy, plotly, xlrd, jinja2, Pillow e virtualenv

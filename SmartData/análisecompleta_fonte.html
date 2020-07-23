@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="git: pedrocruzads, ud21">
+  <title>SmartFonte</title>
+  <link rel="stylesheet" href="conteudo/forma.css">
+  <link rel="icon" href="https://i.ibb.co/0cFZv84/favicon.png">
+</head>
+<body>
+  <main>
+    <div class="header">
+      <div class="metalitcs">
+        <img src="https://i.ibb.co/qJvXrbV/Smart-Data-negativo.png" alt="Smart-Data-negativo">
+      </div>
+      <div class="location">
+        <div class="leftbox">
+          <p>Análise da fonte selecionada:</p>
+        </div>
+        <div class="rightbox">
+          <p>- VEJA ABAIXO AS INFORMAÇÕES DA FONTE SELECIONADA -</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="container-content-col" >
+        <section id="graphs">
+          <div class="static_graph_container_01">
+            <div class="graph_one">
+              <!-- graph form -->
+              <div class="head">
+                <div class="title">Integridade da fonte</div>
+              </div>
+              <div class="table_content">
+                <div class="table_value">4%</div>
+              </div>
+              <!-- graph form -->
+            </div>
+            <div class="graph_two">
+              <!-- graph form -->
+              <div class="head">
+                <div class="title">Taxa de integridade da fonte</div>
+              </div>
+              <div class="table_content">
+                <div class="table_value">99%</div>
+              </div>
+              <!-- graph form -->
+            </div>
+            <div class="graph_three">
+              <!-- graph form -->
+              <div class="head">
+                <div class="title">Análise dos campos íntegros</div>
+                <div class="paragraph">Taxa de campos completos por colunas</div>
+              </div>
+              <div class="content">
+                <iframe src=conteudo/fonte_integridade.html></iframe>
+              </div>
+              <!-- graph form -->
+            </div>
+            <div class="graph_four">
+              <!-- graph form -->
+              <div class="head">
+                <div class="title">Veja abaixo as datas encontradas:</div>
+                <div class="paragraph">Taxa de campos íntegros nas colunas de DATA e de REMESSA</div>
+              </div>
+              <div class="content">
+                <iframe src=conteudo/fonte_datas.html></iframe>
+              </div>
+              <!-- graph form -->
+            </div>
+          </div>
+          
+          <div class="dynamic_graph_container_FNT">
+            <div class="graph_one">
+              <!-- graph form -->
+              <div class="head">
+                <div class="title">Integridade dos dados</div>
+                <div class="paragraph">Taxa de campos íntegros nas colunas</div>
+              </div>
+              <div class="content">
+                <iframe src=conteudo/fonte_dado.html></iframe>
+              </div>
+              <!-- graph form -->
+            </div>
+            <div class="graph_two">
+              <!-- graph form -->
+              <div class="head">
+                <div class="title">Análise das blocos com dados confidenciais:</div>
+                <div class="paragraph">Taxa de campos íntegros nas colunas</div>
+              </div>
+              <div class="content">
+                <iframe src=conteudo/fonte_confidencial.html></iframe>
+              </div>
+              <!-- graph form -->
+            </div>
+            <div class="graph_three">
+              <!-- graph form -->
+              <div class="head">
+                <div class="title">Análise de dados iguais ou diferentes</div>
+                <div class="paragraph">Taxa de campos íntegros por colunas</div>
+              </div>
+              <div class="content">
+                <iframe src=conteudo/fonte_unicos.html></iframe>
+              </div>
+              <!-- graph form -->
+            </div>
+            <div class="graph_four">
+              <!-- graph form -->
+              <div class="head">
+                <div class="title">Integridade Geral da Fonte</div>
+                <div class="paragraph">Taxa de campos de CNPJs válidos, inválidos ou nulos.</div>
+              </div>
+              <div class="content">
+                <iframe src=conteudo/fonte_cnpjs_validados.html></iframe>
+              </div>
+              <!-- graph form -->
+            </div>
+            <div class="graph_five">
+              <!-- graph form -->
+              <div class="head">
+                <div class="title">Taxa de CNPJ únicos x iguais</div>
+                <div class="paragraph">Taxa de campos com dados únicos x iguais</div>
+              </div>
+              <div class="content">
+                <iframe src=conteudo/fonte_cnpjs_unicos.html></iframe>
+              </div>
+              <!-- graph form -->
+            </div>
+            <div class="graph_six">
+              <!-- graph form -->
+              <div class="head">
+                <div class="title">Contagem dos números de CNPJs</div>
+                <div class="paragraph">Taxa de campos corretos de CNPJ, contando também com o complemento.
+                </div>
+              </div>
+              <div class="content">
+                <iframe src=conteudo/fonte_cnpj_numeros.html></iframe>
+              </div>
+              <!-- graph form -->
+            </div>
+            <div class="graph_seven">
+              <!-- graph form -->
+              <div class="head">
+                <div class="title">Razão Social/Nome Únicos x Iguais</div>
+                <div class="paragraph">Taxa de campos com dados únicos x iguais</div>
+              </div>
+              <div class="content">
+                <iframe src=conteudo/fonte_nomes.html></iframe>
+              </div>
+              <!-- graph form -->
+            </div>
+          </div>
+        </section>
+        <footer style="text-align: center"> BY SMARTDATA </footer>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

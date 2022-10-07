@@ -11,7 +11,7 @@
 # *Equipe*
 ### *Scrum Master:* Davi Neves
 ### *P.O:* Pedro Cruz
-### *Desenvolvedores:* Pedro Cruz e Davi Neves
+### *Desenvolvedores:* Pedro Cruz, Davi Neves e João Pedro Rabello 
 
 # *SmartData: Qual o propósito?*
 
